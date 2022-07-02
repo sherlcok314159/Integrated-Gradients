@@ -6,7 +6,7 @@ The original implementation is in tensorflow and the captum's code is kind of he
 The code here can be very simple for understanding the theorem and extending to other understream tasks.
 
 # How to Use
-Here is an example for sentiment classification in NLP (in sentiment_classification.ipynb). Note this code must be on the Jupyter Notebook for its visualization depends on the `Ipython`.
+Here is an example for sentiment classification in NLP (in sentiment_classification.ipynb). Note this code must be on the Jupyter Notebook for its visualization depends on the `Ipython`. The main code is in `integrated_gradients.py`.
 
 ```python
 # for sentiment classification
