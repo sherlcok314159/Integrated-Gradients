@@ -10,7 +10,7 @@ Here is an example for sentiment classification in NLP (in sentiment_classificat
 
 ```python
 # for sentiment classification
-pretrain_path = "https://huggingface.co/fabriceyhc/bert-base-uncased-imdb/tree/main"
+pretrain_path = "fabriceyhc/bert-base-uncased-imdb"
 bert_config = BertConfig.from_pretrained(pretrain_path)
 bert_config.output_hidden_states = True
 model = BertForSequenceClassification.from_pretrained(pretrain_path, config=bert_config).cuda()
@@ -32,3 +32,16 @@ visualize(tok_text, positives, negatives, labels)
 The result should be:
 
 ![](/example.png)
+
+# How to cite? 🔗🔗🔗
+
+```
+@misc{IG_Tai,
+  author = {Yunpengtai},
+  title = {The implementation for Integrated Gradients},
+  year = {2022},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {\url{https://github.com/sherlcok314159/Integrated-Gradients}}
+}
+```
