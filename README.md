@@ -27,6 +27,7 @@ tok_text = [tk.tokenize(t) for t in input_text]
 positives, negatives, tok_text = get_related(tok_text, scores, 3)
 # red for strong correlation
 # green for weak correlation
+# deep and light colors are for stronger and weaker correlation respectively 
 visualize(tok_text, positives, negatives, labels)
 ```
 The result should be:
